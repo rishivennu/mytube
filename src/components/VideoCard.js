@@ -9,7 +9,7 @@ const VideoCard = ({ info }) => {
   const [logoUrl, setLogoUrl] = useState('');
 
   useEffect(() => {
-  const apiKey = 'AIzaSyCdgkjeVtasXVnlz4hUZ9vQxQuiL2v3Axw'
+  const apiKey = 'YOUR_API KEY'
     const url = `https://www.googleapis.com/youtube/v3/channels?part=snippet&id=${channelId}&key=${apiKey}`;
 
     fetch(url)
