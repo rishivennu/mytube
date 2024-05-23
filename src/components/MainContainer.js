@@ -17,7 +17,7 @@ const MainContainer = () => {
 
     // Function to fetch videos
     const getVideos = async () => {
-    const apiKey = 'AIzaSyCdgkjeVtasXVnlz4hUZ9vQxQuiL2v3Axw';
+    const apiKey = 'YOUR_API KEY';
     const apiUrl = `https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=50&regionCode=IN&key=${apiKey}`;
     const data = await fetch(apiUrl);
     const json = await data.json();
