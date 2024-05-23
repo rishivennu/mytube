@@ -4,7 +4,7 @@ import '../../src/App.css';
 const Button = ({ name, updateVideos }) => {
   const handleButtonClick = async () => {
     try {
-      const API_KEY = 'AIzaSyCEf-R_yiSCyN4kxm5KDnfnwk9aDtG7zdE';
+      const API_KEY = 'YOUR_API';
       const query = name;
 
       const response = await fetch(
